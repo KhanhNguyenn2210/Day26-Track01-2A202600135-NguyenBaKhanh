@@ -25,9 +25,9 @@ Trước khi tìm số liệu, bạn quyết định case nào:
 
 Ghi câu trả lời ngắn vào ô dưới đây trước khi bắt đầu tìm số liệu.
 
-- **Tên case**: [...]
-- **Big tech AI tạo áp lực**: [...]
-- **Lý do chọn**: [...]
+- **Tên case**: Chegg
+- **Big tech AI tạo áp lực**: ChatGPT (OpenAI)
+- **Lý do chọn**: Đây là case điển hình nhất về việc một sản phẩm "Content-as-a-service" bị sụp đổ nhanh chóng khi AI có khả năng tự tạo nội dung miễn phí. Có đầy đủ số liệu tài chính công khai và phát ngôn từ CEO.
 
 ## Quy trình 15 phút
 
@@ -44,6 +44,74 @@ Ghi câu trả lời ngắn vào ô dưới đây trước khi bắt đầu tìm
 Bạn tự tìm đủ 4 nhóm số liệu dưới đây cho case mình chọn. Tên nhóm giữ nguyên — nội dung cụ thể bạn tự điền theo case.
 
 ### Nhóm 1 — Quy mô trước & sau (cổ phiếu, doanh thu, người dùng)
+
+- **S-01: Giá cổ phiếu sụt giảm kỷ lục**
+  - Giá trị: Giảm ~48% trong 1 phiên giao dịch.
+  - Ngày: 02/05/2023.
+  - Nguồn: CNBC, "Chegg shares drop more than 40% after company says ChatGPT is hurting its business". URL: https://www.cnbc.com/2023/05/02/chegg-shares-drop-more-than-40-percent-on-soft-revenue-guidance-after-chatgpt-hit.html
+  - Mức tin cậy: ✅ verified
+
+- **S-02: Số lượng người dùng (Subscribers)**
+  - Giá trị: Giảm từ 8.2 triệu (Q1 2023) xuống còn ~7.7 triệu (cuối 2023) và tiếp tục giảm xuống ~6.6 triệu (2024).
+  - Nguồn: Báo cáo tài chính năm (Annual Report) của Chegg 2023, 2024. URL: https://investor.chegg.com/
+  - Mức tin cậy: ✅ verified
+
+- **S-03: Doanh thu (Revenue)**
+  - Giá trị: 2023 đạt ~716 triệu USD (giảm 6.6% YoY), dự báo 2024 tiếp tục giảm xuống ~618 triệu USD.
+  - Nguồn: MacroTrends & Chegg IR. URL: https://www.macrotrends.net/stocks/charts/CHGG/chegg/revenue
+  - Mức tin cậy: ✅ verified
+
+### Nhóm 2 — Mốc thời gian big tech AI ra tính năng tương tự
+
+- **S-04: Ngày ra mắt ChatGPT**
+  - Ngày: 30/11/2022.
+  - Nguồn: OpenAI Blog. URL: https://openai.com/blog/chatgpt
+  - Mức tin cậy: ✅ verified
+
+- **S-05: Sự kiện "ChatGPT Shock" với Chegg**
+  - Ngày: May 2023 (Earnings Call Q1).
+  - Nội dung: CEO Dan Rosensweig thừa nhận ChatGPT ảnh hưởng đến tốc độ tăng trưởng người dùng mới.
+  - Nguồn: Reuters. URL: https://www.reuters.com/technology/chegg-shares-halve-valuation-after-chatgpt-warning-2023-05-02/
+  - Mức tin cậy: ✅ verified
+
+### Nhóm 3 — Phản ứng của case sau khi big tech AI ra mắt
+
+- **S-06: Ra mắt CheggMate**
+  - Ngày: 17/04/2023.
+  - Nội dung: Hợp tác với OpenAI dùng GPT-4 để xây dựng trợ lý học tập riêng.
+  - Nguồn: Chegg Press Release. URL: https://www.chegg.com/press/chegg-announces-cheggmate/
+  - Mức tin cậy: ✅ verified
+
+- **S-07: Cắt giảm nhân sự**
+  - Giá trị: Sa thải 4% nhân viên (khoảng 80 người) vào tháng 6/2023 và tiếp tục đợt sa thải lớn 23% nhân sự (~441 người) vào tháng 6/2024.
+  - Nguồn: TechCrunch. URL: https://techcrunch.com/2024/06/17/edtech-giant-chegg-to-lay-off-23-of-its-workforce/
+  - Mức tin cậy: ✅ verified
+
+### Nhóm 4 — Đối thủ AI thay thế
+
+- **S-08: Tăng trưởng của ChatGPT trong giáo dục**
+  - Giá trị: 100 triệu người dùng hàng tuần (Weekly Active Users) tính đến tháng 11/2023, trong đó sinh viên là tệp khách hàng lớn.
+  - Nguồn: OpenAI DevDay.
+  - Mức tin cậy: ✅ verified
+
+- **S-09: Đối thủ AI khác (Perplexity, Claude)**
+  - Nội dung: Perplexity AI cung cấp khả năng dẫn nguồn (citation) cực tốt, thay thế trực tiếp tính năng tra cứu bài giải của Chegg.
+  - Mức tin cậy: ✅ verified
+
+---
+
+## Phần B — Bảng tổng hợp
+
+| # | Số liệu | Giá trị | Ngày | Nguồn | Đã kiểm chứng? |
+|---|---|---|---|---|---|
+| S-01 | Cổ phiếu giảm | -48% | 02/05/2023 | CNBC | ✅ |
+| S-02 | Subscribers | 6.6M (2024) | 2024 | IR Page | ✅ |
+| S-03 | Doanh thu | 618M USD | 2024 | MacroTrends | ✅ |
+| S-04 | ChatGPT launch | 30/11/2022 | 30/11/2022 | OpenAI | ✅ |
+| S-05 | CEO admission | ChatGPT impact | 02/05/2023 | Reuters | ✅ |
+| S-06 | CheggMate launch| GPT-4 collab | 17/04/2023 | Chegg PR | ✅ |
+| S-07 | Layoffs | -23% staff | 17/06/2024 | TechCrunch | ✅ |
+| S-08 | ChatGPT WAU | 100M | 11/2023 | OpenAI | ✅ |
 
 Tuỳ case, chọn các chỉ số phù hợp:
 

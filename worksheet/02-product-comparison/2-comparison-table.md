@@ -27,13 +27,13 @@ Quy tắc: mỗi ô của bảng dài tối đa 2 câu. Nếu ô nào để tr�
 
 ## Phần A — Bảng so sánh 5 mục
 
-| Mục | Sản phẩm A | Sản phẩm B |
+| Mục | Sản phẩm A (Perplexity) | Sản phẩm B (ChatGPT Search) |
 |---|---|---|
-| **S1 — Product Moment**<br><sup>Entry point + ý định người dùng + surface chính (chat / form / canvas / IDE)</sup> | [...] | [...] |
-| **S2 — Workflow Evidence**<br><sup>Trước / trong / sau khi dùng AI. Friction chính (số click, tab, copy-paste, load mental)</sup> | [...] | [...] |
-| **S3 — Output &amp; Trust**<br><sup>Chất lượng output + dẫn nguồn + disclaimer + control cho người dùng</sup> | [...] | [...] |
-| **S4 — Business Signal**<br><sup>Pricing + giới hạn / paywall + định vị Cost-Capability-Speed (rẻ-nhanh hay mạnh-đắt)</sup> | [...] | [...] |
-| **S5 — Product Judgment**<br><sup>Verdict 1 dòng: Strong / Promising / Weak / At Risk + lý do</sup> | [...] | [...] |
+| **S1 — Product Moment**<br><sup>Entry point + ý định người dùng + surface chính (chat / form / canvas / IDE)</sup> | Entry point là thanh search lớn. Moment "Aha" khi thấy các nguồn dẫn link ngay lập tức và chính xác. | Entry point là khung chat quen thuộc. Moment "Aha" khi AI giải thích các bước quyết toán thuế bằng ngôn ngữ đời thường. |
+| **S2 — Workflow Evidence**<br><sup>Trước / trong / sau khi dùng AI. Friction chính (số click, tab, copy-paste, load mental)</sup> | Tối ưu cho việc verify và đào sâu với Related questions. Ít click để kiểm chứng nguồn. | Tối ưu cho việc hỏi đáp nối tiếp (Conversational). Load mental thấp nhờ hành văn tự nhiên. |
+| **S3 — Output &amp; Trust**<br><sup>Chất lượng output + dẫn nguồn + disclaimer + control cho người dùng</sup> | Độ tin cậy cao nhờ trích dẫn văn bản luật gốc rõ ràng. Citation hiển thị nổi bật. | Độ tin cậy khá, nhưng cảm giác thiên về tóm tắt báo chí. Citation icon nhỏ khó nhìn. |
+| **S4 — Business Signal**<br><sup>Pricing + giới hạn / paywall + định vị Cost-Capability-Speed (rẻ-nhanh hay mạnh-đắt)</sup> | Định vị mạnh về Capability & Speed cho Research. Có gói Pro cho người dùng chuyên nghiệp. | Định vị cân bằng, hướng tới sự phổ biến và đa dụng. Gói Plus có giá trị cộng thêm lớn. |
+| **S5 — Product Judgment**<br><sup>Verdict 1 dòng: Strong / Promising / Weak / At Risk + lý do</sup> | **Promising** - Công cụ search tốt nhất cho chuyên gia cần độ chính xác cao. | **Strong** - Sản phẩm search toàn diện cho người dùng phổ thông. |
 
 ---
 
@@ -41,11 +41,11 @@ Quy tắc: mỗi ô của bảng dài tối đa 2 câu. Nếu ô nào để tr�
 
 Đây là cột trụ của mục S2 trong slide deck. Mỗi friction area trả lời 1 câu so sánh:
 
-- **Physical load** (số click / tab / lần copy-paste): [So sánh A và B trong 1 câu]
+- **Physical load** (số click / tab / lần copy-paste): Perplexity ít click hơn để xem nguồn; ChatGPT cần click vào icon nhỏ.
 - **Cognitive burden** (cần học prompt engineering / có hint sẵn / có nhớ ngữ cảnh giữa lượt chat):
-  - [So sánh A và B trong 1 câu]
+  - Perplexity có hint tốt cho research; ChatGPT nhớ ngữ cảnh chat tốt hơn.
 - **User workarounds** (nhóm phải tự làm gì để bù yếu điểm — vd: prompt lại 3 lần, copy sang công cụ khác):
-  - [So sánh A và B trong 1 câu]
+  - Với Perplexity, đôi khi phải prompt thêm để output bớt khô khan. Với ChatGPT, phải prompt yêu cầu dẫn nguồn luật cụ thể.
 
 ---
 
@@ -53,14 +53,14 @@ Quy tắc: mỗi ô của bảng dài tối đa 2 câu. Nếu ô nào để tr�
 
 Đánh dấu mỗi sản phẩm có / không / một phần:
 
-| Tín hiệu đáng tin | Sản phẩm A | Sản phẩm B |
+| Tín hiệu đáng tin | Sản phẩm A (Perplexity) | Sản phẩm B (ChatGPT) |
 |---|---|---|
-| 1. Dẫn nguồn (citation) — link mở được, đúng nội dung | [...] | [...] |
-| 2. Disclaimer khi không chắc ("không tìm được", "có thể sai") | [...] | [...] |
-| 3. Fallback / dừng lại khi out-of-scope | [...] | [...] |
-| 4. Consistency — chạy 2 lần cùng prompt, output có giống không | [...] | [...] |
-| 5. User control — sửa lại, dừng, regenerate, undo | [...] | [...] |
-| 6. Explanation — giải thích "tại sao AI nói thế" (nếu có) | [...] | [...] |
+| 1. Dẫn nguồn (citation) — link mở được, đúng nội dung | Có (Rất tốt) | Có (Khá) |
+| 2. Disclaimer khi không chắc ("không tìm được", "có thể sai") | Có | Có |
+| 3. Fallback / dừng lại khi out-of-scope | Có | Một phần |
+| 4. Consistency — chạy 2 lần cùng prompt, output có giống không | Cao | Khá |
+| 5. User control — sửa lại, dừng, regenerate, undo | Đầy đủ | Đầy đủ |
+| 6. Explanation — giải thích "tại sao AI nói thế" (nếu có) | Một phần | Một phần |
 
 ---
 
@@ -68,8 +68,8 @@ Quy tắc: mỗi ô của bảng dài tối đa 2 câu. Nếu ô nào để tr�
 
 Mỗi sản phẩm chọn **1** trong 3 góc tam giác (vẽ hình tay nếu cần — sẽ dán vào slide S4):
 
-- **Sản phẩm A nghiêng về**: [rẻ-nhanh / mạnh-đắt / cân bằng] — lý do 1 câu: [...]
-- **Sản phẩm B nghiêng về**: [rẻ-nhanh / mạnh-đắt / cân bằng] — lý do 1 câu: [...]
+- **Sản phẩm A nghiêng về**: [mạnh-đắt] — lý do 1 câu: Tập trung vào chất lượng output và độ chính xác cho Pro users.
+- **Sản phẩm B nghiêng về**: [cân bằng] — lý do 1 câu: Kết hợp tốt giữa khả năng search và sức mạnh hội thoại của LLM.
 
 ---
 
@@ -77,10 +77,10 @@ Mỗi sản phẩm chọn **1** trong 3 góc tam giác (vẽ hình tay nếu c�
 
 Đặt verdict 1 dòng cho mỗi sản phẩm (sẽ tinh chỉnh lại ở Bước 3 sau khi vận dụng 4 Lens + Spark/Loop/System):
 
-- **Sản phẩm A — verdict sơ bộ**: [Strong / Promising / Weak / At Risk]
-  - Lý do 1 câu: [...]
-- **Sản phẩm B — verdict sơ bộ**: [Strong / Promising / Weak / At Risk]
-  - Lý do 1 câu: [...]
+- **Sản phẩm A — verdict sơ bộ**: [Promising]
+  - Lý do 1 câu: Đang làm rất tốt việc giải quyết nỗi lo tin cậy trong AI search.
+- **Sản phẩm B — verdict sơ bộ**: [Strong]
+  - Lý do 1 câu: Tận dụng được hệ sinh thái người dùng khổng lồ hiện có.
 
 ---
 

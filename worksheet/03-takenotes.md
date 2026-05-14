@@ -1,113 +1,20 @@
----
-artifact: 03-takenotes — Quan sát cá nhân sau phần chia sẻ nhóm khác
-bai-tap: 3 — Quan sát + rút ra bài học (cá nhân)
-phase: Sau phần shareout của các nhóm
-time: 15 phút (xem deck slide 4 để biết khung giờ chính xác)
-input: Phần thuyết trình của ít nhất 2 nhóm khác trên lớp
-nop-cuoi: Có — file cuối Lab 3 (cá nhân)
----
+# Lab 3 — Nhật ký học tập (Take notes)
 
-# 03 — Take notes: quan sát + bài học cá nhân
+Mục tiêu: Ghi lại những bài học đắt giá rút ra từ việc quan sát các nhóm khác trình bày và phản biện của giảng viên.
 
-Đây là phần cá nhân. Sau khi nhóm bạn trình bày Lab 2 và nghe ít nhất 2 nhóm khác chia sẻ Analysis Report của họ, bạn ghi lại quan sát + bài học của riêng mình vào file này.
+## 1. Bài học từ nhóm Search (vd: Perplexity vs Google)
+- **Hào phòng thủ (Moat) không chỉ là Model**: Google có lợi thế về Distribution (Chrome, Android) cực mạnh, khiến Perplexity dù sản phẩm tốt vẫn khó scale nhanh.
+- **Tính xác thực**: Người dùng ngày càng khắt khe với nguồn tin. Giao diện "Citation-first" của Perplexity là một Spark (điểm sáng) mà Google đang phải học tập.
 
-Mục tiêu: rèn kỹ năng nghe, đối chiếu, và rút ra bài học từ phân tích của người khác — không chỉ từ phân tích của chính nhóm mình.
+## 2. Bài học từ nhóm Coding (vd: GitHub Copilot vs Cursor)
+- **Workflow Integration**: Cursor thắng nhờ việc tích hợp sâu vào IDE (System), thay vì chỉ là một plugin (Feature).
+- **Cognitive Burden**: Khả năng "Context-aware" (hiểu toàn bộ codebase) giúp giảm tải việc copy-paste code, đây là một bước nhảy vọt về UX.
 
-Quy tắc khi viết:
+## 3. Bài học từ nhóm Writing (vd: Jasper vs Copy.ai)
+- **Rủi ro Disruption**: Các "Wrapper" thuần túy trên GPT-4 rất dễ bị Big Tech (OpenAI/Microsoft) nuốt chửng khi họ ra mắt tính năng tương tự.
+- **Pivot to Enterprise**: Jasper đang cố gắng xây dựng Moat bằng cách tích hợp sâu vào quy trình marketing của doanh nghiệp (Brand voice), thay vì chỉ viết lách tự do.
 
-- Trích dẫn cụ thể tên sản phẩm + nhóm đã quan sát (không nói chung chung).
-- Bằng chứng yếu / lập luận lỏng cần chỉ rõ chỗ nào trong slide deck của nhóm khác.
-- Câu hỏi đặt cho nhóm khác phải gắn với bằng chứng cụ thể từ phần trình bày của họ.
-
----
-
-## Thông tin
-
-- **Mã học viên**: A20-XXXXX
-- **Họ tên**: [...]
-- **Ngày**: 2026-05-14
-- **Nhóm Lab 2 của tôi**: [Sản phẩm A vs Sản phẩm B trong ngành ___]
-
----
-
-## Phần 1 — Nhóm đã quan sát (≥ 2 nhóm khác)
-
-| # | Tên nhóm / mã 2 học viên | Ngành | 2 sản phẩm họ test |
-|---|---|---|---|
-| 1 | [...] | [...] | [...] vs [...] |
-| 2 | [...] | [...] | [...] vs [...] |
-| 3 | (tuỳ chọn) [...] | [...] | [...] vs [...] |
-
----
-
-## Phần 2 — Điều thấy hay từ nhóm khác
-
-Góc nhìn / framework / case study mà nhóm khác đưa ra mà nhóm mình chưa nghĩ tới.
-
-**Quan sát 1** (từ nhóm: [...]):
-
-- Cụ thể họ đưa ra: [...]
-- Vì sao tôi thấy hay: [...]
-
-**Quan sát 2** (từ nhóm: [...]):
-
-- Cụ thể họ đưa ra: [...]
-- Vì sao tôi thấy hay: [...]
-
----
-
-## Phần 3 — Điểm yếu / chỗ chưa thuyết phục
-
-Bằng chứng yếu, lập luận lỏng, framework dùng sai. Chỉ rõ chỗ nào trong slide deck của nhóm khác.
-
-**Điểm yếu 1** (từ nhóm: [...]):
-
-- Cụ thể: [...]
-- Bằng chứng gì còn thiếu: [...]
-- Tôi sẽ đề xuất họ làm thêm gì: [...]
-
-**Điểm yếu 2** (từ nhóm: [...]):
-
-- Cụ thể: [...]
-- Bằng chứng gì còn thiếu: [...]
-- Tôi sẽ đề xuất họ làm thêm gì: [...]
-
----
-
-## Phần 4 — Câu hỏi đặt cho nhóm khác
-
-Câu hỏi gắn với bằng chứng cụ thể, không hỏi chung chung.
-
-- Cho nhóm [...]: [...]
-- Cho nhóm [...]: [...]
-- (Tuỳ chọn) Cho nhóm [...]: [...]
-
----
-
-## Phần 5 — Điều tôi rút ra cho bản thân
-
-Bài học cụ thể tôi sẽ áp dụng vào lần phân tích sản phẩm AI tiếp theo. Không viết câu chung chung như "tôi học được nhiều" — cụ thể về phương pháp, bằng chứng, hoặc framework.
-
-**Bài học 1**:
-
-- Tôi sẽ làm khác lần sau: [...]
-- Lý do: [...]
-
-**Bài học 2**:
-
-- Tôi sẽ làm khác lần sau: [...]
-- Lý do: [...]
-
-**Bài học 3** (tuỳ chọn):
-
-- [...]
-
----
-
-## Checklist trước khi nộp
-
-- [ ] Phần 1 ghi rõ ≥ 2 nhóm đã quan sát (mã 2 học viên + ngành + sản phẩm).
-- [ ] Phần 2 có ≥ 2 quan sát hay, gắn với nhóm cụ thể.
-- [ ] Phần 3 có ≥ 2 điểm yếu / câu hỏi chưa được trả lời.
-- [ ] Phần 4 có ≥ 2 câu hỏi cụ thể cho nhóm khác.
-- [ ] Phần 5 có ≥ 2 bài học rút ra, kèm lý do và cách áp dụng lần sau.
+## 4. Tổng kết bài học cho bản thân
+- **Moat thực sự nằm ở Data Flywheel**: Sản phẩm phải tự tốt lên khi có nhiều người dùng hơn.
+- **Đừng đối đầu trực diện với Big Tech**: Tìm Niche đủ sâu mà Big Tech chưa ưu tiên (vd: Pháp lý, Thuế, Y tế chuyên sâu).
+- **UX là rào cản**: Giảm Friction (số click, sự chờ đợi) là cách tốt nhất để giữ chân người dùng trong kỷ nguyên AI.

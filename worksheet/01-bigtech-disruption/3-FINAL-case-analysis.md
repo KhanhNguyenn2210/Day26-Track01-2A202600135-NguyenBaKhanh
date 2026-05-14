@@ -23,9 +23,9 @@ Quy tắc khi viết:
 
 ## Thông tin bài nộp
 
-- **Tên case (sản phẩm / công ty)**: [...]
-- **Big tech AI tạo áp lực**: [ChatGPT / Claude / Gemini / GitHub Copilot / Microsoft Copilot / ...]
-- **Tác giả**: [Mã học viên A20-XXXXX — Họ tên]
+- **Tên case (sản phẩm / công ty)**: Chegg
+- **Big tech AI tạo áp lực**: ChatGPT (OpenAI)
+- **Tác giả**: [A20-00135 — Nguyễn Bá Khánh]
 - **Ngày phân tích**: 2026-05-14
 - **Phiên bản**: v1
 
@@ -43,11 +43,7 @@ Viết tóm tắt 5-7 câu nêu rõ:
 
 **Tóm tắt**:
 
-[...]
-
-[...]
-
-[...]
+Chegg từng là nền tảng hỗ trợ học tập hàng đầu với kho dữ liệu khổng lồ gồm hơn 100 triệu lời giải chuyên gia. Tuy nhiên, sự ra đời của ChatGPT vào tháng 11/2022 đã tạo ra một cú sốc lớn, làm gãy mô hình kinh doanh dựa trên nội dung tĩnh của công ty. Tháng 5/2023, CEO Chegg thừa nhận ChatGPT ảnh hưởng trực tiếp đến tăng trưởng, khiến cổ phiếu bốc hơi 48% chỉ trong một phiên. Nguyên nhân cốt lõi là AI đã biến "lời giải chuyên gia" thành một loại hàng hóa phổ thông (commodity) có thể tạo ra miễn phí và tức thời. Case này là bài học đắt giá về việc "hào" dữ liệu tĩnh có thể bị san phẳng bởi AI generative như thế nào. Việc nghiên cứu case này giúp ta hiểu rõ tầm quan trọng của việc xây dựng workflow và niềm tin thay vì chỉ tập trung vào nội dung thô.
 
 ---
 
@@ -55,19 +51,19 @@ Viết tóm tắt 5-7 câu nêu rõ:
 
 ### Mô hình kinh doanh
 
-Case bạn chọn là [...]
+Case bạn chọn là **Chegg Inc.** - một công ty công nghệ giáo dục có trụ sở tại Mỹ.
 
-Người dùng chính: [...]
+Người dùng chính: **Sinh viên đại học và học sinh trung học.**
 
-Vấn đề case giải quyết: [...]
+Vấn đề case giải quyết: **Giải các bài tập khó và ôn thi thông qua lời giải từng bước.**
 
-Mô hình kinh doanh: [...]
+Mô hình kinh doanh: **Subscription (Thu phí thuê bao tháng).**
 
 ### Số liệu nổi bật trước AI
 
-- **Quy mô đỉnh (cổ phiếu / doanh thu / user)**: [...] (___)
-- **Mô hình giá**: $___ / tháng
-- **Người dùng chính / tệp khách hàng**: [...]
+- **Quy mô đỉnh (cổ phiếu / doanh thu / user)**: 8.2 triệu thuê bao (Q1 2023)
+- **Mô hình giá**: $14.95 - $19.95 / tháng
+- **Người dùng chính / tệp khách hàng**: Sinh viên tại Mỹ (chiếm đa số).
 
 (Nguồn: xem `1-research.md` bảng số liệu, dòng S-__ đến S-__)
 
@@ -75,9 +71,9 @@ Mô hình kinh doanh: [...]
 
 Trước khi big tech AI ra tính năng tương tự, mô hình hoạt động vì:
 
-1. [...]
-2. [...]
-3. [...]
+1. **Content Moat**: Sở hữu kho lời giải mà không đối thủ nào có được trong thời gian ngắn.
+2. **SEO Dominance**: Xuất hiện ở vị trí đầu tiên cho hầu hết các câu hỏi bài tập trên Google.
+3. **Thói quen người dùng**: Chegg trở thành "động từ" cho việc tra đáp án bài tập.
 
 ---
 
@@ -87,19 +83,17 @@ Trước khi big tech AI ra tính năng tương tự, mô hình hoạt động v
 
 | Ngày | Sự kiện | Tác động ngay |
 |---|---|---|
-| [ngày] | Big tech AI ra tính năng tương tự | [...] |
-| [ngày] | Người dùng bắt đầu chuyển sang big tech AI | [...] |
-| [ngày] | [Lãnh đạo công ty cảnh báo / báo cáo quý xấu / sự kiện công khai] | [...] |
-| [ngày] | [Sự kiện kế tiếp] | [...] |
-| [...] | [...] | [...] |
-| Hiện tại | [...] | [...] |
+| 30/11/2022 | ChatGPT ra mắt | Sinh viên bắt đầu dùng thử để giải bài tập miễn phí. |
+| 17/04/2023 | Chegg công bố CheggMate | Nỗ lực phản ứng bằng cách hợp tác với OpenAI (GPT-4). |
+| 02/05/2023 | CEO thừa nhận ChatGPT hit | Cổ phiếu giảm 48%, vốn hóa bốc hơi hàng tỷ USD. |
+| 06/2024 | Sa thải 23% nhân sự | Cắt giảm chi phí mạnh tay để tồn tại. |
 
 ### Số liệu sau khi big tech AI ra tính năng tương tự
 
-- **Quy mô hiện tại**: [...] (giảm ___% từ đỉnh)
-- **Doanh thu mới nhất**: $___ triệu (giảm ___% YoY)
-- **Sa thải / cắt giảm**: ___% năm ___
-- **Sản phẩm AI mới của case**: [tên + ngày ra mắt]
+- **Quy mô hiện tại**: ~6.6 triệu thuê bao (giảm ~20% từ đỉnh)
+- **Doanh thu mới nhất**: ~$618 triệu USD (dự báo 2024, giảm ~14% YoY)
+- **Sa thải / cắt giảm**: 23% năm 2024
+- **Sản phẩm AI mới của case**: CheggMate (17/04/2023)
 
 (Nguồn: xem `1-research.md` dòng S-__ đến S-__)
 
@@ -111,54 +105,43 @@ Trước khi big tech AI ra tính năng tương tự, mô hình hoạt động v
 
 Trong 7 Customer Expectation Shifts đã học, **2-3 shift quan trọng nhất** áp dụng vào case bạn chọn là:
 
-**Shift ___ — [tên shift]**
+**Shift 1 — Do the work for me**
 
-- Trước: người dùng [...]
-- Sau khi big tech AI ra mắt: người dùng [...]
-- Bằng chứng: [...]
+- Trước: người dùng phải tự tìm đáp án tương tự rồi tự áp dụng vào bài của mình.
+- Sau khi big tech AI ra mắt: người dùng muốn AI giải chính xác bài toán đó ngay lập tức.
+- Bằng chứng: Tăng trưởng của ChatGPT trong tệp sinh viên (S-08).
 
-**Shift ___ — [tên shift]**
+**Shift 5 — Expect it now (instant)**
 
-- Trước: [...]
-- Sau khi big tech AI ra mắt: [...]
-- Bằng chứng: [...]
-
-**Shift ___ — [tên shift]**
-
-- Trước: [...]
-- Sau khi big tech AI ra mắt: [...]
-- Bằng chứng: [...]
+- Trước: Chấp nhận đợi hoặc tốn thời gian tra cứu trong kho nội dung tĩnh.
+- Sau khi big tech AI ra mắt: Kỳ vọng có đáp án trong vài giây.
+- Bằng chứng: Sự sụt giảm thuê bao của Chegg (S-02) khi người dùng ưu tiên tốc độ của AI.
 
 ### 4.2 — Bốn Fit của case đã vỡ
 
 Áp dụng khung Four Fits vào case bạn chọn:
 
-**Fit vỡ đầu tiên: [PMF / PCF / CMF / MMF]**
+**Fit vỡ đầu tiên: Model Market Fit**
 
-- Vấn đề: [...]
-- Bằng chứng: [...]
+- Vấn đề: Sinh viên không còn muốn trả phí cho nội dung khi có AI miễn phí.
+- Bằng chứng: S-01 (Cổ phiếu giảm 48%).
 
-**Fit vỡ thứ hai: [...]**
+**Fit vỡ thứ hai: Product Market Fit**
 
-- Vấn đề: [...]
-- Bằng chứng: [...]
+- Vấn đề: Kho nội dung tĩnh không còn là giải pháp tốt nhất so với AI tạo nội dung động.
+- Bằng chứng: S-02 (Giảm 2 triệu thuê bao).
 
-**Fit vỡ thứ ba: [...]**
+**Fit vỡ thứ ba: Product Channel Fit**
 
-- Vấn đề: [...]
-- Bằng chứng: [...]
-
-**Fit vỡ thứ tư: [...]**
-
-- Vấn đề: [...]
-- Bằng chứng: [...]
+- Vấn đề: Google SEO (kênh chính) bị cạnh tranh bởi AI Search (Perplexity, ChatGPT).
+- Bằng chứng: S-09 (Người dùng chuyển sang Perplexity).
 
 ### 4.3 — Tốc độ Fit Collapse
 
 So sánh với pre-AI:
 
-- Case mất ___ tháng để mất 50% quy mô (doanh thu / user / cổ phiếu).
-- Pre-AI: trường hợp tương tự ([vd: Kodak, Blockbuster]) mất ___ năm.
+- Case mất **6 tháng** để mất 50% quy mô vốn hóa.
+- Pre-AI: trường hợp tương tự (vd: báo giấy, Blockbuster) mất **5-10 năm**.
 - Cái mất nhiều năm để xảy ra giờ rút gọn còn vài tháng.
 
 Đây là biểu hiện của **PMF Treadmill** — ngưỡng kỳ vọng người dùng nhảy bậc, không phải tăng dần.
@@ -167,11 +150,11 @@ So sánh với pre-AI:
 
 Case bị ép từ 3 phía:
 
-- **Phía 1 — Doanh nghiệp lớn**: [Big tech AI nào: Google + Gemini, Microsoft + Copilot, OpenAI + ChatGPT...?]
-- **Phía 2 — Startup khác**: [Có startup nào trong cùng ngành xây sản phẩm AI nhanh hơn?]
-- **Phía 3 — Nền tảng AI**: [ChatGPT, Claude, Gemini gom người dùng vào 1 chỗ — case có trở thành nạn nhân của xu hướng này không?]
+- **Phía 1 — Doanh nghiệp lớn**: **Google + AI Overviews**. Trả lời thẳng câu hỏi trên kết quả tìm kiếm.
+- **Phía 2 — Startup khác**: **Perplexity, Photomath**. Xây dựng trải nghiệm AI-native nhanh hơn.
+- **Phía 3 — Nền tảng AI**: **ChatGPT**. Điểm đến mặc định cho mọi nhu cầu hỏi-đáp.
 
-Hệ quả: kể cả khi case ra mắt sản phẩm AI (sau ___ tháng), họ đã mất kênh phân phối.
+Hệ quả: kể cả khi case ra mắt sản phẩm AI (sau 5 tháng), họ đã mất kênh phân phối và lợi thế nội dung.
 
 ---
 
@@ -181,62 +164,70 @@ Phần 4 trả lời "vì sao". Phần 5 trả lời "lớn cỡ nào, tăng tr�
 
 ### 5.1 — User base (số lượng người dùng)
 
-| Chỉ số | Trước AI shock | Sau AI shock | Nguồn |
-|---|---|---|---|
-| Người dùng trả tiền | | | |
-| Người dùng miễn phí | | | |
-| MAU | | | |
-| DAU | | | |
+### 5.1 — User base (số lượng người dùng)
 
-Nhận định: [tệp nào sụt nhanh nhất, tệp nào giữ được — 2-3 câu]
+| Chỉ số | Trước AI shock (Q1 2023) | Sau AI shock (2024) | Nguồn |
+|---|---|---|---|
+| Người dùng trả tiền | 8.2 Triệu | 6.6 Triệu | Chegg IR |
+| Người dùng miễn phí | - | - | N/A |
+| MAU | - | - | N/A |
+| DAU | - | - | N/A |
+
+Nhận định: Tệp sinh viên có ngân sách thấp (từ các trường công/cao đẳng) sụt giảm nhanh nhất vì họ nhạy cảm với giá và ChatGPT miễn phí đủ tốt cho họ.
+
+### 5.2 — Tốc độ tăng trưởng
 
 ### 5.2 — Tốc độ tăng trưởng
 
 | Giai đoạn | Tốc độ | Nguồn |
 |---|---|---|
-| Trước AI shock | ___ %/năm | |
-| Sau AI shock | ___ %/năm (hoặc giảm ___%) | |
-| Thời điểm đảo chiều | | |
+| Trước AI shock | +4-5% /năm | MacroTrends |
+| Sau AI shock | -13.8% /năm | CNBC |
+| Thời điểm đảo chiều | Q2 2023 | Earnings Call |
 
-Nhận định: [case đã quay đầu giảm hay chỉ chậm lại — 2-3 câu]
+Nhận định: Case đã thật sự đảo chiều sang suy giảm doanh thu và người dùng, không chỉ là chậm lại.
 
 ### 5.3 — Doanh thu / valuation
 
-| Chỉ số | Trước AI shock | Sau AI shock | Nguồn |
-|---|---|---|---|
-| ARR | | | |
-| MRR | | | |
-| Valuation / market cap | | | |
-| ARPU | | | |
+### 5.3 — Doanh thu / valuation
 
-Mức công khai của số liệu: [Có / Không công khai / Chỉ ước tính từ báo chí]
+| Chỉ số | Trước AI shock (2022) | Sau AI shock (2024) | Nguồn |
+|---|---|---|---|
+| ARR | ~760M USD | ~618M USD | Chegg IR |
+| MRR | ~63M USD | ~51M USD | Tính toán |
+| Valuation / market cap | ~12B USD | ~0.5B USD | Yahoo Finance |
+| ARPU | ~15$ | ~15$ | Ước tính |
+
+Mức công khai của số liệu: **Có (Công ty niêm yết)**.
 
 Nhận định: [mức suy giảm doanh thu và ý nghĩa với khả năng tồn tại — 2-3 câu]
 
 ### 5.4 — Moat strategy
 
+### 5.4 — Moat strategy
+
 | Loại moat | Mức mạnh trước AI | Bằng chứng |
 |---|---|---|
-| Data moat | | |
-| Network effect | | |
-| Switching cost | | |
-| Brand | | |
-| Distribution | | |
+| Data moat | Rất mạnh | 100M+ lời giải đã xác thực. |
+| Network effect | Yếu | Không có sự kết nối giữa sinh viên. |
+| Switching cost | Vừa | Lịch sử bài học và bookmark. |
+| Brand | Mạnh | Top-of-mind cho "homework help". |
+| Distribution | Rất mạnh | SEO thống trị Google Search. |
 
-- **Moat chủ đạo trước AI**: [...] — vì [...]
-- **Big tech AI tấn công moat nào**: [...] — bằng cách nào?
-- **Moat còn lại sau AI**: [...] — vì sao chưa bị phá?
+- **Moat chủ đạo trước AI**: **Data Moat** kết hợp với **Distribution**.
+- **Big tech AI tấn công moat nào**: **Data Moat** (AI tự sinh lời giải) và **Distribution** (AI Search bỏ qua link SEO).
+- **Moat còn lại sau AI**: **Brand** (vẫn còn nhận diện thương hiệu nhất định với phụ huynh).
 
-Nhận định: [cấu trúc moat có chống chịu áp lực AI không — 2-3 câu]
+Nhận định: Cấu trúc moat dựa trên nội dung tĩnh hoàn toàn thất thủ trước sức mạnh của Generative AI.
 
 ### 5.5 — Data flywheel + feedback loop
 
-- **Hành động người dùng feed lại model**: [...]
-- **Loop có compounding**: [Có / Không / Một phần] — amplification factor ước tính: [...]
-- **Thu thập feedback systematically**: [Có / Không / Có thu nhưng không dùng]
-- **Big tech AI vô hiệu hoá flywheel ở đâu**: [...]
+- **Hành động người dùng feed lại model**: Đánh giá lời giải (rating), yêu cầu giải thích thêm.
+- **Loop có compounding**: **Một phần**. Nhiều dữ liệu hơn giúp SEO tốt hơn, nhưng không giúp model thông minh hơn theo hàm mũ như LLM.
+- **Thu thập feedback systematically**: Có thu thập thông qua hệ thống đánh giá.
+- **Big tech AI vô hiệu hoá flywheel ở đâu**: Vô hiệu hóa ở khâu SEO. Flywheel của Chegg bị cô lập trong web tĩnh, không học được từ luồng dữ liệu khổng lồ như OpenAI.
 
-Nhận định: [nếu loop bị gỡ, case còn gì giữ chân người dùng — 2-3 câu]
+Nhận định: Khi loop SEO bị gỡ, Chegg mất đi khả năng thu hút khách hàng giá rẻ.
 
 ---
 
@@ -244,14 +235,14 @@ Nhận định: [nếu loop bị gỡ, case còn gì giữ chân người dùng 
 
 So sánh:
 
-| Yếu tố | Case bạn chọn | Đối thủ phản ứng tốt hơn |
+| Yếu tố | Case bạn chọn (Chegg) | Đối thủ phản ứng tốt hơn (Duolingo) |
 |---|---|---|
-| Thời gian ra mắt sản phẩm AI | ___ tháng | ___ tháng |
-| Đối tác AI | [...] | [...] |
-| Tích hợp với sản phẩm cũ | [...] | [...] |
-| Mô hình kinh doanh | [...] | [...] |
-| Cấu trúc moat hậu AI | [...] | [...] |
-| Kết quả | [...] | [...] |
+| Thời gian ra mắt sản phẩm AI | ~5 tháng | ~3 tháng |
+| Đối tác AI | OpenAI (GPT-4) | OpenAI (GPT-4) |
+| Tích hợp với sản phẩm cũ | Chatbot rời rạc | Tích hợp sâu vào core loop |
+| Mô hình kinh doanh | Bị đe dọa, doanh thu giảm | Tăng ARPU thông qua gói AI Max |
+| Cấu trúc moat hậu AI | Yếu, dễ bị thay thế | Mạnh hơn nhờ dữ liệu tương tác người dùng |
+| Kết quả | Mất 50% vốn hóa | Vốn hóa tăng/ổn định |
 
 Bài học cốt lõi từ so sánh này: [...]
 
@@ -261,25 +252,21 @@ Bài học cốt lõi từ so sánh này: [...]
 
 ### Vì sao case bạn chọn bị ảnh hưởng nặng (3 lý do chính)
 
-1. **Lý do 1**: [...] — bằng chứng: [...]
-2. **Lý do 2**: [...] — bằng chứng: [...]
-3. **Lý do 3**: [...] — bằng chứng: [...]
+1. **Lý do 1**: **Sự gãy đổ của Model-Market Fit**. Người dùng không muốn trả tiền cho nội dung tĩnh nữa.
+2. **Lý do 2**: **Vô hiệu hóa Data Moat**. LLM có khả năng suy luận tốt đến mức không cần kho đáp án có sẵn.
+3. **Lý do 3**: **Mất kênh phân phối SEO**. AI Search đã thay đổi cách người dùng tìm kiếm thông tin học tập.
 
 ### Case có cứu vãn được không?
 
-**Câu trả lời của bạn**: [Có / Không / Có nhưng phải...]
+**Câu trả lời của bạn**: **Khó (Cần Pivot mạnh mẽ)**.
 
 **Lý do**:
-
-- [...]
-- [...]
-- [...]
+- Biên lợi nhuận sẽ mỏng đi do chi phí API cho AI.
+- Thương hiệu bị định vị là "kho chép đáp án", khó chuyển dịch sang "công cụ học tập".
 
 **Nếu case có thể làm khác trong 6 tháng đầu sau khi big tech AI ra mắt**:
-
-- [...]
-- [...]
-- [...]
+- Chuyển sang mô hình AI-first ngay lập tức, dùng dữ liệu độc quyền để fine-tune model.
+- Thay đổi mô hình giá từ Subscription sang Pay-per-success.
 
 ---
 
@@ -288,16 +275,13 @@ Bài học cốt lõi từ so sánh này: [...]
 Sau khi phân tích case bạn chọn, bạn rút ra 3 bài học để nhóm áp dụng vào Lab 2 (thử nghiệm sản phẩm AI thật):
 
 **Bài học 1 — Kỳ vọng người dùng thay đổi nhanh hơn doanh nghiệp**
-
-- [...]
+- Sinh viên chuyển sang AI chỉ trong vài tuần, doanh nghiệp mất nhiều tháng để phản ứng.
 
 **Bài học 2 — Fit Collapse xảy ra đồng thời, không tuần tự**
-
-- [...]
+- Cả Market, Product và Model Fit đều gãy cùng lúc khi AI xuất hiện.
 
 **Bài học 3 — Big Squeeze ép sản phẩm AI từ 3 phía**
-
-- [...]
+- Phải xác định rõ lợi thế ngách (Niche) nếu không sẽ bị kẹp giữa Big Tech và các Startup mới.
 
 ---
 
@@ -331,10 +315,10 @@ Yêu cầu tối thiểu: 12 bằng chứng/nguồn cho cả bài phân tích (P
 
 Liệt kê toàn bộ nguồn đã dùng (URL, tên báo, ngày):
 
-1. [...]
-2. [...]
-3. [...]
-4. [...]
-5. [...]
+1. CNBC: https://www.cnbc.com/2023/05/02/chegg-shares-drop-more-than-40-percent-on-soft-revenue-guidance-after-chatgpt-hit.html
+2. Reuters: https://www.reuters.com/technology/chegg-shares-halve-valuation-after-chatgpt-warning-2023-05-02/
+3. MacroTrends: https://www.macrotrends.net/stocks/charts/CHGG/chegg/revenue
+4. Chegg IR: https://investor.chegg.com/
+5. TechCrunch: https://techcrunch.com/2024/06/17/edtech-giant-chegg-to-lay-off-23-of-its-workforce/
 
 (Có thể tham chiếu ngược lại bảng `1-research.md` Phần B nếu bạn muốn ngắn gọn.)
